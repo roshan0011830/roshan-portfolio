@@ -34,7 +34,7 @@ function ThemeToggle() {
 
   return (
     <button onClick={()=> themeToggle()} className={cn("relative max-sm:hidden  z-50 p-2 rounded-full transition-colors duration-300")}>
-      {isDarkMode ? <Sun className='absolute h-6 w-6 text-yellow-300 top-2 right-3'/> : <Moon className='absolute h-6 w-6 text-blue-300 top-2 right-3'/>}
+      {isDarkMode ? <Sun className='absolute h-6 w-6 text-yellow-300 top-8 md:top-7 right-2'/> : <Moon className=' text-blue-300 absolute h-6 w-6 top-8 md:top-7 right-2'/>}
     </button>
   )
 }

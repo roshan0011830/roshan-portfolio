@@ -42,7 +42,7 @@ function Navbar() {
           : "py-5",
       )}
     >
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-between pr-16">
         <a
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
@@ -66,6 +66,7 @@ function Navbar() {
           ))}
         </div>
 
+
         {/* Mobile nav */}
 
         <button
@@ -75,6 +76,7 @@ function Navbar() {
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
+        
 
         {isMenuOpen && (
           <div className="fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center md:hidden">
@@ -92,6 +94,7 @@ function Navbar() {
             </div>
           </div>
         )}
+
       </div>
     </nav>
   );

@@ -17,7 +17,7 @@ export function Toaster() {
           </div>
         </ToastPrimitive.Root>
       ))}
-      <ToastPrimitive.Viewport className="fixed bottom-5 right-5 z-50" />
+      <ToastPrimitive.Viewport className="fixed bottom-3 right-3 z-50" />
     </ToastPrimitive.Provider>
   )
 }

@@ -10,8 +10,8 @@ const projects = [
     description: "React e-commerce app with product listing, cart management, authentication, quantity updates, and real-time total calculation.",
     image: "/projectImg/shopHub.png",
     tags: ["CSS", "Javascript", "React"],
-    demoUrl: "https://roshan-portfolio-red.vercel.app/",
-    githubUrl: "https://github.com/roshan0011830/roshan-portfolio"
+    demoUrl: "https://shophub-ecommerce-chi.vercel.app/",
+    githubUrl: "https://github.com/roshan0011830/shophub-react"
   },
   {
     id: 2,
