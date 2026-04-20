@@ -10,15 +10,15 @@ const projects = [
     description: "React e-commerce app with product listing, cart management, authentication, quantity updates, and real-time total calculation.",
     image: "../public/projectImg/shopHub.png",
     tags: ["CSS", "Javascript", "React"],
-    demoUrl: "https://shophub-ecommerce-chi.vercel.app/",
-    githubUrl: "https://github.com/roshan0011830/shophub-react"
+    demoUrl: "https://roshan-portfolio-red.vercel.app/",
+    githubUrl: "https://github.com/roshan0011830/roshan-portfolio"
   },
   {
     id: 2,
-    title: "Webflow Mordern Web",
-    description: "Responsive e-commerce interface with product browsing, cart functionality, and smooth navigation, focused on clean user experience.",
+    title: "Portfolio Website",
+    description: "Personal portfolio website showcasing projects, skills, and contact information with a responsive layout and clean user interface.",
     image: "../public/projectImg/project2.png",
-    tags: ["React", "Redux", "TailwindCSS"],
+    tags: ["TailwindCSS","Javascript", "React"],
     demoUrl: "#",
     githubUrl: "#"
   },
