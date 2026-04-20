@@ -8,7 +8,7 @@ import { PiLinkedinLogo } from "react-icons/pi";
 
 // Toaster
 import {useToast} from '@/hooks/use-toast'
-import { Toaster } from "./ui/toaster";
+
 
 
 
@@ -187,7 +187,7 @@ function ContactSection() {
               } <SendIcon size={16}/></button>
             </form>
           </div>
-          <Toaster/>
+          
 
         </div>
       </div>

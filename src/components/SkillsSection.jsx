@@ -51,14 +51,14 @@ function SkillsSection() {
         </h2>
 
         {/* Category */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex  justify-center  gap-2 mb-12">
           {categories.map((category, key) => (
             <button
               key={key}
               onClick={() => {
                 setActiveCategory(category)
                 }}
-              className={activeCategory === category ? "bg-primary text-primary-foreground px-5 py-2 rounded-full transition-colors duration-300" : "bg-secondary/70 text-secondary px-5 py-2 rounded-full transition-colors duration-300"}
+              className={activeCategory === category ? "text-sm bg-primary text-primary-foreground px-5 py-2 rounded-full transition-colors duration-300" : "bg-secondary/70 text-secondary px-5 py-2 rounded-full transition-colors duration-300"}
             >
               {category}
             </button>

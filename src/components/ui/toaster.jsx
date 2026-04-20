@@ -10,14 +10,14 @@ export function Toaster() {
   return (
     <ToastPrimitive.Provider>
       {toasts.map(({ id, title, description }) => (
-        <ToastPrimitive.Root key={id} className="p-4 shadow rounded mb-2 bg-green-600">
+        <ToastPrimitive.Root key={id} className="p-4 shadow rounded bg-green-600 ">
           <div>
             <h4 className="font-bold">{title}</h4>
             <p>{description}</p>
           </div>
         </ToastPrimitive.Root>
       ))}
-      <ToastPrimitive.Viewport className="fixed top-5 right-5 z-50" />
+      <ToastPrimitive.Viewport className="fixed bottom-5 right-5 z-50" />
     </ToastPrimitive.Provider>
   )
 }
