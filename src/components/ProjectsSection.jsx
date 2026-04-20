@@ -19,8 +19,8 @@ const projects = [
     description: "Personal portfolio website showcasing projects, skills, and contact information with a responsive layout and clean user interface.",
     image: "/projectImg/project2.png",
     tags: ["TailwindCSS","Javascript", "React"],
-    demoUrl: "#",
-    githubUrl: "#"
+    demoUrl: "https://roshan-portfolio-red.vercel.app/",
+    githubUrl: "https://github.com/roshan0011830/roshan-portfolio"
   },
   {
     id: 3,
