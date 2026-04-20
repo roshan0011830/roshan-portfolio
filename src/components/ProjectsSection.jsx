@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "ShopHub E-commerce",
     description: "React e-commerce app with product listing, cart management, authentication, quantity updates, and real-time total calculation.",
-    image: "../public/projectImg/shopHub.png",
+    image: "/projectImg/shopHub.png",
     tags: ["CSS", "Javascript", "React"],
     demoUrl: "https://roshan-portfolio-red.vercel.app/",
     githubUrl: "https://github.com/roshan0011830/roshan-portfolio"
@@ -17,7 +17,7 @@ const projects = [
     id: 2,
     title: "Portfolio Website",
     description: "Personal portfolio website showcasing projects, skills, and contact information with a responsive layout and clean user interface.",
-    image: "../public/projectImg/project2.png",
+    image: "/projectImg/project2.png",
     tags: ["TailwindCSS","Javascript", "React"],
     demoUrl: "#",
     githubUrl: "#"
@@ -26,7 +26,7 @@ const projects = [
     id: 3,
     title: "Meizon Website",
     description: "Personal portfolio showcasing projects, skills, and contact details, built with a clean layout and responsive design implementation.",
-    image: "../public/projectImg/project3.png",
+    image: "/projectImg/project3.png",
     tags: ["React", "CSS"],
     demoUrl: "#",
     githubUrl: "#"
@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     title: "Mentora",
     description: "Dynamic blog platform with post listing and structured content display, focused on smooth navigation and responsive interface.",
-    image: "../public/projectImg/project4.png",
+    image: "/projectImg/project4.png",
     tags: ["React", "Node.js"],
     demoUrl: "#",
     githubUrl: "#"
@@ -44,7 +44,7 @@ const projects = [
     id: 5,
     title: "Vishop Voices",
     description: "Weather application using API integration to fetch real-time data, displaying current conditions with a clean responsive UI.",
-    image: "../public/projectImg/project5.png",
+    image: "/projectImg/project5.png",
     tags: ["JavaScript", "API"],
     demoUrl: "#",
     githubUrl: "#"
@@ -53,7 +53,7 @@ const projects = [
     id: 6,
     title: "Chat Application",
     description: "Real-time chat app with interactive messaging features and responsive UI, built for smooth communication and seamless user experience.",
-    image: "../public/projectImg/project6.png",
+    image: "/projectImg/project6.png",
     tags: ["React", "Firebase"],
     demoUrl: "#",
     githubUrl: "#"
